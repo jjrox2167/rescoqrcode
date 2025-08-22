@@ -17,7 +17,7 @@ const AppDownloadLanding = () => {
     <div className='text-center'>
       
     <div className="min-h-screen w-screen bg-gradient-to-br from-red-200 via-red-200 to-red-400 flex items-center justify-center p-4">
-      <h1 className='absolute top-1/6 text-slate-900 text-4xl font-semibold'>Rural Electric Supply Cooperative</h1>
+      
       <div className="bg-white bg-opacity-95 rounded-3xl shadow-2xl p-8 max-w-md w-full text-center">
         <div className="mb-8">
           <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-3">
