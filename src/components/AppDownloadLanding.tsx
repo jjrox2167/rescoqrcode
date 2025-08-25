@@ -16,20 +16,31 @@ const AppDownloadLanding = () => {
   return (
     <div className='text-center'>
       
-    <div className="min-h-screen w-screen bg-gradient-to-br from-red-200 via-red-200 to-red-400 flex items-center justify-center p-4">
-      
+    <div className="min-h-screen w-screen bg-gradient-to-br from-red-200 via-red-200 to-red-400 flex items-center justify-center ">
+
       <div className="bg-white bg-opacity-95 rounded-3xl shadow-2xl p-8 max-w-md w-full text-center">
-        <div className="mb-8">
+        <div className="">
+      <div className='justify-items-center'>                
+        <img
+        className=' mb-2'
+        
+        src="/resco_logo_3c.png"
+        alt="resco"
+        width={125}
+        height={125}
+        />
+</div>
+
           <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-3">
-            Download Apps
+            Mobile Apps for Download
           </h1>
-          <p className="text-gray-600 text-sm md:text-base">
-            Get the apps you need for productivity and communication
+          <p className="text-gray-600 text-sm md:text-base mb-10">
+            Get RESCO&apos;s work-related mobile apps you need!
           </p>
         </div>
 
         {/* Intermedia Unite Section */}
-        <div className="mb-8 p-6 bg-white bg-opacity-70 rounded-2xl border border-white border-opacity-30 hover:shadow-lg transition-shadow duration-300">
+        <div className="mb-8 p-6 bg-red-200/20 bg-opacity-70 rounded-2xl border border-red-300 hover:shadow-lg hover:bg-red-300 transition-shadow duration-300">
           <h2 className="text-xl font-semibold text-gray-800 mb-2">Intermedia Unite</h2>
           <p className="text-sm text-gray-600 mb-5 leading-relaxed">
             Complete business communications platform with calling, messaging, and collaboration tools
@@ -57,7 +68,7 @@ const AppDownloadLanding = () => {
         </div>
 
         {/* Microsoft Office Section */}
-        <div className="mb-8 p-6 bg-white bg-opacity-70 rounded-2xl border border-white border-opacity-30 hover:shadow-lg transition-shadow duration-300">
+        <div className="mb-8 p-6 bg-red-200/20 bg-opacity-70 rounded-2xl border border-red-300 hover:shadow-lg hover:bg-red-300 transition-shadow duration-300">
           <h2 className="text-xl font-semibold text-gray-800 mb-2">Microsoft Office</h2>
           <p className="text-sm text-gray-600 mb-5 leading-relaxed">
             Send Email, conenct on Microsoft Teams, create, edit, and collaborate on documents, spreadsheets, and presentations
