@@ -71,7 +71,7 @@ const AppDownloadLanding = () => {
         <div className="mb-8 p-6 bg-red-200/20 bg-opacity-70 rounded-2xl border border-red-300 hover:shadow-lg hover:bg-red-300 transition-shadow duration-300">
           <h2 className="text-xl font-semibold text-gray-800 mb-2">Microsoft Office</h2>
           <p className="text-sm text-gray-600 mb-5 leading-relaxed">
-            Send Email, conenct on Microsoft Teams, create, edit, and collaborate on documents, spreadsheets, and presentations
+            Send E-mail with Microsoft Outlook, connect on Microsoft Teams, create, edit, and collaborate on documents, spreadsheets, and presentations
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
@@ -103,5 +103,6 @@ const AppDownloadLanding = () => {
     </div>
   );
 };
+
 
 export default AppDownloadLanding;
